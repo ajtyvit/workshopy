@@ -1,0 +1,11 @@
+{
+  "name": "ajtyvit-workshopy",
+  "version": "0.0.1",
+  "author": "Marian Rusnak <grizly21@gmail.com>",
+  "scripts": {
+    "csv-to-json": "node data/csv-to-json.js"
+  },
+  "devDependencies": {
+    "csv": "^1.1.0"
+  }
+}

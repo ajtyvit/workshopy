@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workshopy</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+  <h1>IT workshopy pre dievčatá</h1>
+
+  <div class="row">
+    <div class="col-12">
+      <label for="region">Vyberte okres: </label>
+      <select id="region" class="form-control">
+        <option></option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <table id="workshopList" class="table">
+        <thead>
+        <tr>
+          <th>#</th>
+          <th></th>
+          <th>Názov</th>
+          <th>Popis</th>
+          <th>Lektor</th>
+          <th>O lektorovi</th>
+          <th>Časové rozmedzie</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="assets/filter.js"></script>
+<script>
+  $(function () {
+    $.getJSON('data/workshops.json', function (data) {
+      Filter.workshops = data;
+
+      Filter.getAllRegions().forEach(function (region) {
+        $('#region')
+          .append($('<option>')
+            .attr('value', region)
+            .text(region)
+          );
+      });
+
+      $('#region').on('change', function () {
+        var region = $(this).val();
+        var filteredWorkshops = Filter.filterByRegion(region);
+
+        $('#workshopList').find('tbody').empty();
+
+        filteredWorkshops.forEach(function (workshop, index) {
+          var workshopItem = $('<tr>')
+            .append($('<td>').text(index + 1))
+            .append($('<td>').append(
+              $('<a>').text('Mám záujem')
+                .attr('href', Filter.getRequestFormURL(workshop))
+                .attr('target', '_blank')
+            ))
+            .append($('<td>').text(workshop.name))
+            .append($('<td>').text(workshop.description))
+            .append($('<td>').text(workshop.lecturer.name))
+            .append($('<td>').text(workshop.lecturer.role))
+            .append($('<td>').text(workshop.timeFrame));
+          $('#workshopList').find('tbody').append(workshopItem);
+        });
+      });
+    });
+  });
+</script>
+</body>
+</html>

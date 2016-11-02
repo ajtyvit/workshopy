@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Základy IT a vývoja webu pre dievčatá",
+    "description": "S dievčatami prejdeme možnosti, aké majú na zamestnanie sa v IT a hlavne dôvody, prečo by mali nad niečim takým ako je IT uvažovať. Ukážeme im, čomu by sa mali venovať počas školy a ako si zvýšiť svoje znalosti z oblasti informačných technológií doma. \n\nNa počítačoch s nimi prejdeme základy vebového vývoja - budeme sa venovat hlavne HTML5. Počas tohto workshopu ich naučíme ako vyhľadávať správne informácie na webe, porozumieť im a aplikovať ich na ich projekt. Po skončení workshopu im necháme niekoľko zadaní, ktoré si môžu vyskúšať urobiť doma samé.",
+    "timeFrame": "1,5 hodiny, no nie je problém aj dlhšie alebo kratšie.",
+    "regions": [
+      "Bardejov",
+      "Košice",
+      "Prešov",
+      "Sabinov",
+      "Stropkov",
+      "Svidník",
+      "Vranov nad Topľou"
+    ],
+    "lecturer": {
+      "name": "Marián Rusnák",
+      "role": "Pracuje ako Front-end Software Engineer pre americkú spoločnosti AOL v Londýne. Vo februári 2016 ukončil Masarykovu univerzitu v Brne v odbore aplikovaná informatika medzi 1% najlepších študentov v odbore. Už počas vysokej školy mal niekoľko zamestnaní, kde okrem iného vytvoril softvér na vytváranie testov pre školy, ktorý sa používa na školách na Slovensku a v Česku. O jeho cestách po svete sa môžete viac dozvedieť z jeho blogu: http://zadobrodruzstvom.blogspot.com."
+    }
+  },
+  {
+    "name": "Korytnačka v Pythone: kreslenie programovaním",
+    "description": "Na workshope si vyskúšate základy programovania prostredníctvom korytnačej grafiky: spôsobom, ktorý je dlhodobo populárny pre výuku úplných začiatočníkov. Pomocou moderného programovacieho jazyka Python (ktorý využívajú popredné weby ako Facebook a Google) si nakreslíte jednoduché obrázky a prakticky tak nahliadnete na spôsob myslenia programátorov. Nečakajte žiadne dlhé prednášky: čo najviac postupov si skúsite aktívne; lektor vám bude iba radiť, usmerňovať vás a pomáhať vám. Po workshope prebehne neformálna diskusia na vami vybrané témy (napríklad štúdium informatiky na vysokej škole alebo práca v oblasti IT). ",
+    "timeFrame": "Rozsah workshopu je 2 hodiny:\n\n10 minút: zoznámenie s účastníkmi\n5 minút: úvod, motivácia\n30 minút: prvý blok programovania\n10 minút: prestávka\n30 minút: druhý blok programovania\n30 minút: diskusia\n5 minút: zhrnutie\n\nV prípade záujmu je možný (a preferovaný) rozsah aj 3 hodiny:\n\n10 minút: zoznámenie s účastníkmi\n5 minút: úvod, motivácia\n40 minút: prvý blok programovania\n10 minút: prestávka\n40 minút: druhý blok programovania\n10 minút: prestávka\n30 minút: tretí blok programovania\n30 minút: diskusia\n5 minút: zhrnutie",
+    "regions": [
+      "Banská Bystrica",
+      "Bratislava",
+      "Detva",
+      "Dunajská Streda",
+      "Galanta",
+      "Hlohovec",
+      "Komárno",
+      "Krupina",
+      "Levice",
+      "Malacky",
+      "Nitra",
+      "Nové Mesto nad Váhom",
+      "Nové Zámky",
+      "Pezinok",
+      "Piešťany",
+      "Považská Bystrica",
+      "Prievidza",
+      "Púchov",
+      "Senec",
+      "Senica",
+      "Šaľa",
+      "Topoľčany",
+      "Trenčín",
+      "Trnava",
+      "Zlaté Moravce",
+      "Zvolen",
+      "Žarnovica",
+      "Žiar nad Hronom"
+    ],
+    "lecturer": {
+      "name": "Valdemar Švábenský",
+      "role": "Matematik, hacker, gitarista, boxer a mladý učiteľ. Venujem sa modernej výuke na vysokej škole; moje hodiny majú skvelý ohlas pre ich zaujímavosť, praktickosť a zrozumiteľnosť. Počítačmi sa zaoberám od svojich 4 rokov, mám červený diplom z Fakulty informatiky Masarykovej univerzity v Brne a získal som Cenu dekana za svoju záverečnú prácu: program, ktorý simuluje ľudský postup riešenia matematických úloh. Som tiež autorom videí Nauč sa matiku. Rád cestujem a strávil som pol roka štúdiom v Dánsku."
+    }
+  },
+  {
+    "name": "Dnesne \"hot\" problemy v IT + jednoducha ukazka algoritmiky cez online hru",
+    "description": "Najprv opisem rozne novodobe problemy v IT ako spracovavanie velkeho mnozstva dat, auta bez vodica, automatizovany preklad",
+    "timeFrame": "max 1h. Pravdepodobne najprv opisem prostredie, v ktorom pracujem. Nasledne sa vrhnem na problemy, ktore su teraz IN a nakoniec tak 20 min budeme hrat online hru, kde sa naucia uplne zaklady programovania (asi javascript hra).",
+    "regions": [
+      "Košice",
+      "Prešov"
+    ],
+    "lecturer": {
+      "name": "Matej Briskar",
+      "role": "Software Engineer v LinkedIn, predtym Software Engineer v Red Hat-e a veduci seminarov pre programovanie pokrocilych aplikacii v Jave na VS."
+    }
+  }
+]
