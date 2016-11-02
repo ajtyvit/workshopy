@@ -1,5 +1,3 @@
-// var workshops = require('./workshops.json');
-
 
 var Filter = {
   workshops: [],
@@ -28,7 +26,3 @@ var Filter = {
       '&entry.1064790964=' + encodeURIComponent(workshop.lecturer.name);
   }
 };
-
-
-// console.log(filterByRegion('Prešov'));
-// console.log(getAllRegions());
